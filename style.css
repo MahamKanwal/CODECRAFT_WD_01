@@ -1,0 +1,13 @@
+.nav-item .nav-link {
+    color: white; /* Default color */
+    text-decoration: none;
+    transition: all 0.3s ease; /* Smooth transition */
+  }
+  
+  .nav-item .nav-link:hover {
+    background: linear-gradient(90deg, #A734BD 0%, #FF006A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold; /* Optional: Add bold effect */
+  }
+  
