@@ -1,13 +1,27 @@
+@import url(fonts/Anton/Anton-Regular.ttf);
+
+body
+{
+  background: linear-gradient(90deg, #A734BD 0%, #FF006A 0% ,black 30%);  
+}
+
 .nav-item .nav-link {
-    color: white; /* Default color */
+    color: white; 
     text-decoration: none;
-    transition: all 0.3s ease; /* Smooth transition */
+    transition: all 0.3s ease; 
   }
   
   .nav-item .nav-link:hover {
     background: linear-gradient(90deg, #A734BD 0%, #FF006A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight: bold; /* Optional: Add bold effect */
+    font-weight: bold; 
   }
   
+  .anton{
+    font-family: "Anton";
+  }
+
+  .bg-linear{
+    color: #D41192 !important;   
+   }
